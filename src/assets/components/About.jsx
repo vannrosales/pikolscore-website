@@ -3,8 +3,8 @@ function About() {
         <section id="about" className="bg-gray-900 text-white py-16 sm:py-24 border-b border-gray-800">
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 
-                {/* Section Header */}
-                <div className="text-center max-w-3xl mx-auto space-y-4 mb-16">
+                {/* Section Header with smooth entrance */}
+                <div className="text-center max-w-3xl mx-auto space-y-4 mb-16 animate-[fadeIn_0.6s_ease-out]">
                     <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-emerald-500/10 border border-emerald-500/20 text-emerald-400 text-xs font-semibold tracking-wide">
                         About PikolScore
                     </div>
@@ -16,12 +16,12 @@ function About() {
                     </p>
                 </div>
 
-                {/* Features Grid */}
+                {/* Features Grid with staggered hover and lift effects */}
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-6 sm:gap-8">
                     
                     {/* Card 1 */}
-                    <div className="bg-gray-800/50 border border-gray-700/60 p-6 sm:p-8 rounded-2xl space-y-3 hover:border-emerald-500/40 transition-colors">
-                        <div className="w-12 h-12 rounded-xl bg-emerald-500/10 border border-emerald-500/20 flex items-center justify-center text-emerald-400 font-black text-lg">
+                    <div className="bg-gray-800/50 border border-gray-700/60 p-6 sm:p-8 rounded-2xl space-y-3 hover:border-emerald-500/50 hover:bg-gray-800/80 transition-all duration-300 transform hover:-translate-y-1.5 shadow-lg hover:shadow-emerald-500/5">
+                        <div className="w-12 h-12 rounded-xl bg-emerald-500/10 border border-emerald-500/20 flex items-center justify-center text-emerald-400 font-black text-lg transition-transform duration-300 group-hover:scale-110">
                             ⚡
                         </div>
                         <h3 className="text-lg font-semibold text-white">Big-Tap & Instant</h3>
@@ -31,8 +31,8 @@ function About() {
                     </div>
 
                     {/* Card 2 */}
-                    <div className="bg-gray-800/50 border border-gray-700/60 p-6 sm:p-8 rounded-2xl space-y-3 hover:border-emerald-500/40 transition-colors">
-                        <div className="w-12 h-12 rounded-xl bg-emerald-500/10 border border-emerald-500/20 flex items-center justify-center text-emerald-400 font-black text-lg">
+                    <div className="bg-gray-800/50 border border-gray-700/60 p-6 sm:p-8 rounded-2xl space-y-3 hover:border-emerald-500/50 hover:bg-gray-800/80 transition-all duration-300 transform hover:-translate-y-1.5 shadow-lg hover:shadow-emerald-500/5">
+                        <div className="w-12 h-12 rounded-xl bg-emerald-500/10 border border-emerald-500/20 flex items-center justify-center text-emerald-400 font-black text-lg transition-transform duration-300 group-hover:scale-110">
                             💾
                         </div>
                         <h3 className="text-lg font-semibold text-white">Zero Backend, Local Safe</h3>
@@ -42,8 +42,8 @@ function About() {
                     </div>
 
                     {/* Card 3 */}
-                    <div className="bg-gray-800/50 border border-gray-700/60 p-6 sm:p-8 rounded-2xl space-y-3 hover:border-emerald-500/40 transition-colors">
-                        <div className="w-12 h-12 rounded-xl bg-emerald-500/10 border border-emerald-500/20 flex items-center justify-center text-emerald-400 font-black text-lg">
+                    <div className="bg-gray-800/50 border border-gray-700/60 p-6 sm:p-8 rounded-2xl space-y-3 hover:border-emerald-500/50 hover:bg-gray-800/80 transition-all duration-300 transform hover:-translate-y-1.5 shadow-lg hover:shadow-emerald-500/5">
+                        <div className="w-12 h-12 rounded-xl bg-emerald-500/10 border border-emerald-500/20 flex items-center justify-center text-emerald-400 font-black text-lg transition-transform duration-300 group-hover:scale-110">
                             📱
                         </div>
                         <h3 className="text-lg font-semibold text-white">Courtside Ready</h3>

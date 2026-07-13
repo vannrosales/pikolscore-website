@@ -22,7 +22,7 @@ export default function Scoreboard({ onBack }) {
     const [newQueueName, setNewQueueName] = useState('');
     const [queueList, setQueueList] = useState(() => {
         const saved = localStorage.getItem('ps_queueList');
-        return saved ? JSON.parse(saved) : ['Net Ninjas', 'Court Crushers', 'Dink Masters'];
+        return saved ? JSON.parse(saved) : [];
     });
 
     // History stack for Undo
@@ -207,7 +207,7 @@ export default function Scoreboard({ onBack }) {
         setServerNum(1);
         setMatchWinner(null);
         setHistory([]);
-        setQueueList(['Net Ninjas', 'Court Crushers', 'Dink Masters']);
+        setQueueList(['Player 1']);
     };
 
     // Queue handlers
